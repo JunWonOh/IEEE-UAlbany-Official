@@ -13,7 +13,7 @@ export default function SideBarNavigation(props) {
             avatar: props.picture,
             nickname: props.name,
             email: props.email,
-            accesskey: process.env.REACT_APP_ACCESS_KEY
+            accesskey: 'sUfdfJJDfdBejHHdfUFAdJiwNNkl'
         }
         axios.post("https://ieeeualbany-be.herokuapp.com/users", userData).then(response => {
             console.log(response.data);
